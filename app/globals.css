@@ -31,3 +31,53 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer base {
+  main {
+    @apply flex min-h-screen flex-col items-center bg-background lg:p-24;
+  }
+  article {
+    @apply bg-white space-y-8 lg:p-10 rounded-xl lg:w-[720px];
+  }
+  section {
+    @apply m-10 lg:m-0 last:pb-6;
+  }
+  h1 {
+    @apply text-stone-900 font-[700] text-5xl;
+  }
+  h2 {
+    @apply text-[32px] font-[700] text-brown-800 pb-4;
+  }
+  ul {
+    @apply list-inside list-disc;
+  }
+  ol {
+    @apply list-inside list-decimal;
+  }
+  p,
+  li {
+    @apply text-[16px] text-stone-600 marker:text-brown-800 marker:font-[700];
+  }
+  li {
+    @apply py-1;
+  }
+  hr {
+    @apply mx-10 lg:mx-0;
+  }
+  table {
+    @apply w-full mt-5;
+  }
+  tr {
+    @apply border-b border-stone-100 last:border-none;
+  }
+  th {
+    @apply text-stone-600 font-[400];
+  }
+  td {
+    @apply text-brown-800 font-[700];
+  }
+  th,
+  td {
+    @apply text-left;
+  }
+}
