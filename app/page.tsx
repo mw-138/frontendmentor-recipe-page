@@ -1,6 +1,7 @@
 import HeaderImage from "@/public/image-omelette.jpeg";
 import Image from "next/image";
 import { Young_Serif } from "next/font/google";
+import Link from "next/link";
 
 const youngSerif = Young_Serif({ subsets: ["latin"], weight: "400" });
 
@@ -114,6 +115,24 @@ export default function Home() {
           </table>
         </section>
       </article>
+
+      <footer className="text-[11px] mt-2 text-center text-stone-700">
+        Challenge by{" "}
+        <Link
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+        >
+          Frontend Mentor
+        </Link>
+        . Coded by{" "}
+        <Link
+          href="https://www.frontendmentor.io/profile/mw-138"
+          target="_blank"
+        >
+          mw-138
+        </Link>
+        .
+      </footer>
     </main>
   );
 }
