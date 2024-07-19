@@ -14,7 +14,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/blog-preview-card-using-css-flexbox-5XCkyZqfBn)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-recipe-page-using-tailwind-css-khcyybd1G4)
 - [Live Site URL](https://frontendmentor-recipe-page-virid.vercel.app/)
 
 ## My process
